@@ -1,7 +1,7 @@
 #Original Script From: https://www.sharepointdiary.com/2019/06/sharepoint-online-change-regional-settings-using-powershell.html
 #Documentation for the Regional Options: https://docs.microsoft.com/en-us/previous-versions/office/sharepoint-csom/jj171195(v=office.15)
 #Script Generator By: TIITANIC1912 - tiitanic1912@gmail.com
-#Generator Version: 0.1, Build: 20220710
+#Generator Version: 0.1, Build: 0001
 
 
 #For this script to work, you need to download the following pre-requisite: https://www.microsoft.com/en-us/download/details.aspx?id=42038
@@ -94,6 +94,7 @@ $Ctx.ExecuteQuery()
 #SITE LOOP NUMBER 2 ENDED.
 
 echo "All Operations Completed."
+pause
 
 #SITES LOOP ENDED.
 #END OF THE SCRIPT.

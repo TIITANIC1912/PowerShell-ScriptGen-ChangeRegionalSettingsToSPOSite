@@ -15,4 +15,4 @@ For the correct execution of this generator, you need to fill the files followin
 
 If the Generator respond with and error, the best option is to close all the open files, and delete the Options.txt and SitesURL.txt. Then re-run the Generator to create the deleted files corrected.
 
-If you have any error, please send me and email to tiitanic1912@gmail.com or post and issue on the GitHub Page.
+If you have any error, please send me and email to tiitanic1912@gmail.com or post and issue on the GitHub Page: https://github.com/TIITANIC1912/PowerShell-ScriptGen-ChangeRegionalSettingsToSPOSite/
