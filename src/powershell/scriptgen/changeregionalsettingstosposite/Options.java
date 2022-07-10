@@ -72,32 +72,35 @@ public class Options {
                 if((line = br.readLine())!=null){
                     String dataArray[] = line.split("=");
                     data=data+line + "\n";
-
-                    switch (dataArray[0]){
-                        case "LOCALEID":
-                            setLocaleId(dataArray[1]);
-                            break;
-                        case "WORKDAYSTARTHOUR":
-                            setWorkDayStartHour(dataArray[1]);
-                            break;
-                        case "WORKDAYENDHOUR":
-                            setWorkDayEndHour(dataArray[1]);
-                            break;
-                        case "FIRSTDAYOFWEEK":
-                            setFirstDayOfWeek(dataArray[1]);
-                            break;
-                        case "TIME24":
-                            setTime24(dataArray[1]);
-                            break;
-                        case "CALENDARTYPE":
-                            setCalendarType(dataArray[1]);
-                            break;
-                        case "ALTERNATECALENDARTYPE":
-                            setAlternateCalendarType(dataArray[1]);
-                            break;
-                        case "WORKDAYS":
-                            setWorkDays(dataArray[1]);
-                            break;
+                    try{
+                        switch (dataArray[0]){
+                            case "LOCALEID":
+                                setLocaleId(dataArray[1]);
+                                break;
+                            case "WORKDAYSTARTHOUR":
+                                setWorkDayStartHour(dataArray[1]);
+                                break;
+                            case "WORKDAYENDHOUR":
+                                setWorkDayEndHour(dataArray[1]);
+                                break;
+                            case "FIRSTDAYOFWEEK":
+                                setFirstDayOfWeek(dataArray[1]);
+                                break;
+                            case "TIME24":
+                                setTime24(dataArray[1]);
+                                break;
+                            case "CALENDARTYPE":
+                                setCalendarType(dataArray[1]);
+                                break;
+                            case "ALTERNATECALENDARTYPE":
+                                setAlternateCalendarType(dataArray[1]);
+                                break;
+                            case "WORKDAYS":
+                                setWorkDays(dataArray[1]);
+                                break;
+                        }
+                    }catch(java.lang.ArrayIndexOutOfBoundsException Exception){
+                        System.err.println("Error - The Gathering data process Fail, the Script generation may fail.");
                     }
                 }
                 else{
