@@ -17,7 +17,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Juan Carlos
+ * @author TIITANIC1912
  */
 public class SitesURL {
 
