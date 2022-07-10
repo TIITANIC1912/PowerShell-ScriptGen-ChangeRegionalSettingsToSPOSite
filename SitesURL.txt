@@ -1,0 +1,3 @@
+https://mydomain.sharepoint.com/sites/mysite1
+https://mydomain.sharepoint.com/sites/mysite2
+https://mydomain.sharepoint.com/sites/mysite3
