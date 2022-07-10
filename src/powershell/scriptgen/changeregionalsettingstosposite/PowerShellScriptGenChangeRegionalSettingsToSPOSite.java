@@ -8,7 +8,7 @@ import java.io.File;
 
 /**
  *
- * @author Juan Carlos
+ * @author TIITANIC1912
  */
 public class PowerShellScriptGenChangeRegionalSettingsToSPOSite {
 

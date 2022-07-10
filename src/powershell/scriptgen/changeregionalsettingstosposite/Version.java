@@ -12,7 +12,7 @@ package powershell.scriptgen.changeregionalsettingstosposite;
 public class Version {
     
     private String Version = "0.1";
-    private String Build = "0001";
+    private String Build = "20220710";
     
     public Version(){
         
